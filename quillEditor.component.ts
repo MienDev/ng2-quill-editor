@@ -20,9 +20,9 @@ const Quill = require('quill');
     './quillEditor.component.css'
   ],
   styles: [
-    require('quill/dist/quill.core.css'),
-    require('quill/dist/quill.snow.css'),
-    require('quill/dist/quill.bubble.css')
+    require('quill/dist/quill.core.css').toString(),
+    require('quill/dist/quill.snow.css').toString(),
+    require('quill/dist/quill.bubble.css').toString()
   ],
   providers: [{
     provide: NG_VALUE_ACCESSOR,
